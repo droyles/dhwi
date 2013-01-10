@@ -10,11 +10,11 @@
 	<header>
 		<h1>Great Book Popularity Project</h1>
 		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/topics/new">Add a Book</a></li>
-				<li><a href="/about.html">About</a></li>
-			</ul>
+  			<ul>
+    			<li><%= link_to 'Home', root_path %></li>
+    			<li><%= link_to 'Add a Book', new_topic_path %></li>
+    			<li><%= link_to 'About', pages_about_path %></li>
+  			</ul>
 		</nav>
 	</header>	
 
