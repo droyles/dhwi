@@ -34,11 +34,19 @@ header {
 	border: 2px solid #bf3310;
 }
 
+footer { 
+	color: #d9cab0;
+	background-color: #20211b;
+	padding: 2px 5px;
+	border: 2px solid #bf3310;
+}
+
 header h1 {
 	font-size: 40px;
 }
 
-nav ul {
+nav ul,
+footer ul {
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
